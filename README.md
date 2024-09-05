@@ -2,6 +2,7 @@
 
 Project of simple library for plots and charts using SDL and CPP programming language.
 ![alt text](https://github.com/mich-kacz/Cpp_plots-charts/blob/master/doc/wieleOkien.png?raw=true)
+![alt text](https://github.com/mich-kacz/Cpp_plots-charts/blob/master/doc/testDlaStruktury.png?raw=true)
 
 
 Please firt install sdl2 using below link:
