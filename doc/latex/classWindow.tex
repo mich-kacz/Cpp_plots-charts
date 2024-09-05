@@ -1,0 +1,145 @@
+\hypertarget{classWindow}{}\doxysection{Window Class Reference}
+\label{classWindow}\index{Window@{Window}}
+
+
+\mbox{\hyperlink{classWindow}{Window}} class.  
+
+
+
+
+{\ttfamily \#include $<$window.\+hpp$>$}
+
+
+
+Inheritance diagram for Window\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{classWindow__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classWindow_a78b965ce73a544285e78e14504610a61}{Window}} (const std\+::string \&title, int width=640, int height=480)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classWindow}{Window}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_a245d821e6016fa1f6970ccbbedd635f6}\label{classWindow_a245d821e6016fa1f6970ccbbedd635f6}} 
+\mbox{\hyperlink{classWindow_a245d821e6016fa1f6970ccbbedd635f6}{$\sim$\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classWindow}{Window}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classWindow_a34c7de8e38c1ef3082b9eadd771f2ecb}{get\+\_\+size}} (int \&width, int \&height)
+\begin{DoxyCompactList}\small\item\em Get the window size. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classWindow_a59515fc5a56e86d5a46d771595daac55}\label{classWindow_a59515fc5a56e86d5a46d771595daac55}} 
+void \mbox{\hyperlink{classWindow_a59515fc5a56e86d5a46d771595daac55}{update}} ()
+\begin{DoxyCompactList}\small\item\em Update window state. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classWindow_a1451ad259e007339074ad5fc837658e0}{make\+\_\+screenshot}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Saves window as PNG image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_a431039b201428361d05383ddc3e795f8}\label{classWindow_a431039b201428361d05383ddc3e795f8}} 
+static void \mbox{\hyperlink{classWindow_a431039b201428361d05383ddc3e795f8}{retainer}} ()
+\begin{DoxyCompactList}\small\item\em Static method for keeping window alive on screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_aadf48f26c42c5aafb43cfcabc5353a5f}\label{classWindow_aadf48f26c42c5aafb43cfcabc5353a5f}} 
+static bool \mbox{\hyperlink{classWindow_aadf48f26c42c5aafb43cfcabc5353a5f}{m\+\_\+quit}} = false
+\begin{DoxyCompactList}\small\item\em Static variable indicating if wndow should be closed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_aaf457450558c587a9f93971a4c6a0e9c}\label{classWindow_aaf457450558c587a9f93971a4c6a0e9c}} 
+virtual void {\bfseries draw} ()=0
+\item 
+\mbox{\Hypertarget{classWindow_a38bc43bdd1a97e5de7f346ba4c3957ef}\label{classWindow_a38bc43bdd1a97e5de7f346ba4c3957ef}} 
+void {\bfseries clear} ()
+\item 
+\mbox{\Hypertarget{classWindow_a0bc1248e9eeec9cf374b6c37e31a6a7a}\label{classWindow_a0bc1248e9eeec9cf374b6c37e31a6a7a}} 
+void {\bfseries set\+\_\+background\+\_\+color} ()
+\item 
+\mbox{\Hypertarget{classWindow_aaa34083bb3485223df65acbfab087757}\label{classWindow_aaa34083bb3485223df65acbfab087757}} 
+void {\bfseries set\+\_\+background\+\_\+color} (\mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classWindow_ab155c7aa52b1b5eea1ddb065fca230c8}\label{classWindow_ab155c7aa52b1b5eea1ddb065fca230c8}} 
+SDL\+\_\+\+Renderer $\ast$ {\bfseries m\+\_\+renderer}
+\item 
+\mbox{\Hypertarget{classWindow_a79ee16f303fd806920b529b3488a4ec8}\label{classWindow_a79ee16f303fd806920b529b3488a4ec8}} 
+int {\bfseries m\+\_\+width}
+\item 
+\mbox{\Hypertarget{classWindow_a55cc88aeb4f5611aa100b9185f2f90cc}\label{classWindow_a55cc88aeb4f5611aa100b9185f2f90cc}} 
+int {\bfseries m\+\_\+height}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classWindow}{Window}} class. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classWindow_a78b965ce73a544285e78e14504610a61}\label{classWindow_a78b965ce73a544285e78e14504610a61}} 
+\index{Window@{Window}!Window@{Window}}
+\index{Window@{Window}!Window@{Window}}
+\doxysubsubsection{\texorpdfstring{Window()}{Window()}}
+{\footnotesize\ttfamily Window\+::\+Window (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title,  }\item[{int}]{width = {\ttfamily 640},  }\item[{int}]{height = {\ttfamily 480} }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classWindow}{Window}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & -\/ New window title \\
+\hline
+{\em width} & -\/ New window width, default = 640. \\
+\hline
+{\em height} & New window height, default = 480 \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classWindow_a34c7de8e38c1ef3082b9eadd771f2ecb}\label{classWindow_a34c7de8e38c1ef3082b9eadd771f2ecb}} 
+\index{Window@{Window}!get\_size@{get\_size}}
+\index{get\_size@{get\_size}!Window@{Window}}
+\doxysubsubsection{\texorpdfstring{get\_size()}{get\_size()}}
+{\footnotesize\ttfamily void Window\+::get\+\_\+size (\begin{DoxyParamCaption}\item[{int \&}]{width,  }\item[{int \&}]{height }\end{DoxyParamCaption})}
+
+
+
+Get the window size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & -\/ int variable for width \\
+\hline
+{\em height} & -\/ int variable for height \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classWindow_a1451ad259e007339074ad5fc837658e0}\label{classWindow_a1451ad259e007339074ad5fc837658e0}} 
+\index{Window@{Window}!make\_screenshot@{make\_screenshot}}
+\index{make\_screenshot@{make\_screenshot}!Window@{Window}}
+\doxysubsubsection{\texorpdfstring{make\_screenshot()}{make\_screenshot()}}
+{\footnotesize\ttfamily bool Window\+::make\+\_\+screenshot (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Saves window as PNG image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & -\/ name of image file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/\+Desktop/\+PSS/projekt/\+PSS\+\_\+\+Project/software/lib/window/\mbox{\hyperlink{window_8hpp}{window.\+hpp}}\item 
+/home/michal/\+Desktop/\+PSS/projekt/\+PSS\+\_\+\+Project/software/lib/window/\mbox{\hyperlink{window_8cpp}{window.\+cpp}}\end{DoxyCompactItemize}

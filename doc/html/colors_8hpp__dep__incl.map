@@ -1,0 +1,16 @@
+<map id="/home/michal/Desktop/PSS/projekt/PSS_Project/software/lib/utils/colors.hpp" name="/home/michal/Desktop/PSS/projekt/PSS_Project/software/lib/utils/colors.hpp">
+<area shape="rect" id="node1" title="Struct with function to set color of graphical elements." alt="" coords="500,5,705,61"/>
+<area shape="rect" id="node2" href="$dataSerie_8hpp_source.html" title=" " alt="" coords="729,109,967,165"/>
+<area shape="rect" id="node8" href="$shapes_8hpp.html" title="Struct with functions to create graphical shapes." alt="" coords="29,109,259,165"/>
+<area shape="rect" id="node10" href="$colors_8cpp.html" title="Implementation of function which set color." alt="" coords="501,109,705,165"/>
+<area shape="rect" id="node11" href="$font_8hpp.html" title="Struct with functions to render text." alt="" coords="284,109,476,165"/>
+<area shape="rect" id="node13" href="$window_8hpp.html" title="Base window class." alt="" coords="991,109,1228,165"/>
+<area shape="rect" id="node3" href="$graph_8hpp_source.html" title=" " alt="" coords="742,213,954,269"/>
+<area shape="rect" id="node4" href="$columnGraph_8hpp_source.html" title=" " alt="" coords="609,317,804,388"/>
+<area shape="rect" id="node6" href="$linearGraph_8hpp_source.html" title=" " alt="" coords="828,317,1012,388"/>
+<area shape="rect" id="node7" href="$pieGraph_8hpp_source.html" title=" " alt="" coords="405,317,585,388"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Main program loop." alt="" coords="608,436,805,492"/>
+<area shape="rect" id="node9" href="$shapes_8cpp.html" title="Implementation of functions to create graphical shapes." alt="" coords="5,213,235,269"/>
+<area shape="rect" id="node12" href="$font_8cpp.html" title="Implementation of functions to render given text." alt="" coords="310,213,501,269"/>
+<area shape="rect" id="node14" href="$window_8cpp.html" title="Base window class." alt="" coords="1086,213,1322,269"/>
+</map>

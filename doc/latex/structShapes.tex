@@ -1,0 +1,105 @@
+\hypertarget{structShapes}{}\doxysection{Shapes Struct Reference}
+\label{structShapes}\index{Shapes@{Shapes}}
+
+
+\mbox{\hyperlink{structShapes}{Shapes}} structure.  
+
+
+
+
+{\ttfamily \#include $<$shapes.\+hpp$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{structShapes_a04ed24f3c10b7d344cf3a042cd79c19c}{draw\+\_\+rectangle}} (SDL\+\_\+\+Renderer $\ast$renderer, int x, int y, int width, int height, \mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color=Color\+::\+Black)
+\begin{DoxyCompactList}\small\item\em Method draws rectangle from origin at the upper left. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{structShapes_aa72fb82120db5e740d7663c07e4bab92}{draw\+\_\+circle}} (SDL\+\_\+\+Renderer $\ast$renderer, int x, int y, int radius, \mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color=Color\+::\+Black)
+\begin{DoxyCompactList}\small\item\em Method draws circle from given the center of the circle and radius. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{structShapes_a8586f20bab65de3c026cc333374c2b28}{draw\+\_\+line}} (SDL\+\_\+\+Renderer $\ast$renderer, int start\+\_\+x, int start\+\_\+y, int end\+\_\+x, int end\+\_\+y, \mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color=Color\+::\+Black)
+\begin{DoxyCompactList}\small\item\em Method draws line between two points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{structShapes}{Shapes}} structure. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structShapes_aa72fb82120db5e740d7663c07e4bab92}\label{structShapes_aa72fb82120db5e740d7663c07e4bab92}} 
+\index{Shapes@{Shapes}!draw\_circle@{draw\_circle}}
+\index{draw\_circle@{draw\_circle}!Shapes@{Shapes}}
+\doxysubsubsection{\texorpdfstring{draw\_circle()}{draw\_circle()}}
+{\footnotesize\ttfamily void Shapes\+::draw\+\_\+circle (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer $\ast$}]{renderer,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{radius,  }\item[{\mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{color = {\ttfamily Color\+:\+:Black} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method draws circle from given the center of the circle and radius. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & pointer to SDL\+\_\+\+Renderer object \\
+\hline
+{\em x} & horizontal value of the center of the circle (in pixels) \\
+\hline
+{\em y} & verical value of the center of the circle (in pixels) \\
+\hline
+{\em radius} & radius of circle (in pixels) \\
+\hline
+{\em color} & color of the circle \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structShapes_a8586f20bab65de3c026cc333374c2b28}\label{structShapes_a8586f20bab65de3c026cc333374c2b28}} 
+\index{Shapes@{Shapes}!draw\_line@{draw\_line}}
+\index{draw\_line@{draw\_line}!Shapes@{Shapes}}
+\doxysubsubsection{\texorpdfstring{draw\_line()}{draw\_line()}}
+{\footnotesize\ttfamily void Shapes\+::draw\+\_\+line (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer $\ast$}]{renderer,  }\item[{int}]{start\+\_\+x,  }\item[{int}]{start\+\_\+y,  }\item[{int}]{end\+\_\+x,  }\item[{int}]{end\+\_\+y,  }\item[{\mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{color = {\ttfamily Color\+:\+:Black} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method draws line between two points. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & pointer to SDL\+\_\+\+Renderer object \\
+\hline
+{\em start\+\_\+x} & horizontal value of start point (in pixels) \\
+\hline
+{\em start\+\_\+y} & vertical value of start point (in pixels) \\
+\hline
+{\em end\+\_\+x} & horizontal value of end point (in pixels) \\
+\hline
+{\em end\+\_\+y} & vertical value of end point (in pixels) \\
+\hline
+{\em color} & color of the line \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structShapes_a04ed24f3c10b7d344cf3a042cd79c19c}\label{structShapes_a04ed24f3c10b7d344cf3a042cd79c19c}} 
+\index{Shapes@{Shapes}!draw\_rectangle@{draw\_rectangle}}
+\index{draw\_rectangle@{draw\_rectangle}!Shapes@{Shapes}}
+\doxysubsubsection{\texorpdfstring{draw\_rectangle()}{draw\_rectangle()}}
+{\footnotesize\ttfamily void Shapes\+::draw\+\_\+rectangle (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer $\ast$}]{renderer,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{\mbox{\hyperlink{colors_8hpp_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{color = {\ttfamily Color\+:\+:Black} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Method draws rectangle from origin at the upper left. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & pointer to SDL\+\_\+\+Renderer object \\
+\hline
+{\em x} & starting horizontal value of rectangle (in pixels) \\
+\hline
+{\em y} & starting vertical value of rectangle (in pixels) \\
+\hline
+{\em width} & width of rectangle (in pixels) \\
+\hline
+{\em height} & height of rectangle (in pixels) \\
+\hline
+{\em color} & color of the rectangle \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/michal/\+Desktop/\+PSS/projekt/\+PSS\+\_\+\+Project/software/lib/shapes/\mbox{\hyperlink{shapes_8hpp}{shapes.\+hpp}}\item 
+/home/michal/\+Desktop/\+PSS/projekt/\+PSS\+\_\+\+Project/software/lib/shapes/\mbox{\hyperlink{shapes_8cpp}{shapes.\+cpp}}\end{DoxyCompactItemize}
